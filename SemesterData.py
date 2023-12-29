@@ -12,7 +12,7 @@ class SemesterData:
     def __str__(self):
         return self.semester_as_string
 
-    def get_weeks(self):
+    def get_weeks(self) -> [WeekData]:
         return self.weeks
 
     def update_data(self):
